@@ -1,6 +1,8 @@
 package org.seasar.doma.extension.gen.internal.util;
 
-/** @author nakamura-to */
+/**
+ * @author nakamura-to
+ */
 public class Pair<FIRST, SECOND> {
 
   private final FIRST first;

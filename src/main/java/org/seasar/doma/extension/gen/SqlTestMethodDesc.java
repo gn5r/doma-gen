@@ -1,6 +1,8 @@
 package org.seasar.doma.extension.gen;
 
-/** @author nakamura-to */
+/**
+ * @author nakamura-to
+ */
 public class SqlTestMethodDesc {
 
   protected String methodName;

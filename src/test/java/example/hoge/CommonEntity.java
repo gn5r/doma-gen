@@ -3,7 +3,9 @@ package example.hoge;
 import org.seasar.doma.Entity;
 import org.seasar.doma.Transient;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 @Entity
 public class CommonEntity extends AbstractBean {
 

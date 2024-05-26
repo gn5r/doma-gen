@@ -3,7 +3,9 @@ package org.seasar.doma.extension.gen.internal.util;
 import java.io.File;
 import junit.framework.TestCase;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public class FileUtilTest extends TestCase {
 
   public void testCreateJavaFile() throws Exception {

@@ -2,7 +2,9 @@ package org.seasar.doma.extension.gen.task;
 
 import junit.framework.TestCase;
 
-/** @author nakamura-to */
+/**
+ * @author nakamura-to
+ */
 public class GenTest extends TestCase {
 
   public void testSetTableTypes() throws Exception {

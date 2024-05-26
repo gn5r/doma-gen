@@ -11,7 +11,9 @@ import org.seasar.doma.extension.gen.internal.util.FileUtil;
 import org.seasar.doma.extension.gen.internal.util.Pair;
 import org.seasar.doma.extension.gen.internal.util.StringUtil;
 
-/** @author nakamura-to */
+/**
+ * @author nakamura-to
+ */
 public class SqlTestSuiteDescFactory {
 
   protected SqlTestCaseDescFactory sqlTestCaseDescFactory;

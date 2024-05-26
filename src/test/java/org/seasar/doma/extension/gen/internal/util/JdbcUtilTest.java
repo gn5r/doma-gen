@@ -2,7 +2,9 @@ package org.seasar.doma.extension.gen.internal.util;
 
 import junit.framework.TestCase;
 
-/** @author nakamura-to */
+/**
+ * @author nakamura-to
+ */
 public class JdbcUtilTest extends TestCase {
 
   public void testInferDialectName() throws Exception {

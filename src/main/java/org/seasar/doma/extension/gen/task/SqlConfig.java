@@ -50,7 +50,9 @@ public class SqlConfig extends DataType {
     this.destDir = destDir;
   }
 
-  /** @param baseDir the baseDir to set */
+  /**
+   * @param baseDir the baseDir to set
+   */
   protected void setBaseDir(File baseDir) {
     this.baseDir = baseDir;
   }

@@ -1,6 +1,8 @@
 package org.seasar.doma.extension.gen.internal.util;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public final class TableUtil {
 
   public static String getQualifiedTableName(

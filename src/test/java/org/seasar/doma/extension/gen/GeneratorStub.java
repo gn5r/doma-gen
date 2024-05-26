@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.StringWriter;
 import java.io.Writer;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public class GeneratorStub extends Generator {
 
   private StringWriter writer = new StringWriter(300);

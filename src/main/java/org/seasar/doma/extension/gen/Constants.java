@@ -25,7 +25,9 @@ public class Constants {
   /** */
   public static final String TEMPLATE_EXTENSION = ".ftl";
 
-  /** @since 1.7.0 */
+  /**
+   * @since 1.7.0
+   */
   public static final String SQL_TEMPLATE_EXTENSION = ".sql.ftl";
 
   /** */
