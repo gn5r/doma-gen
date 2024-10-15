@@ -10,7 +10,9 @@ import org.seasar.doma.extension.gen.dialect.GenDialect;
 import org.seasar.doma.extension.gen.internal.message.Message;
 import org.seasar.doma.extension.gen.internal.util.JdbcUtil;
 
-/** @author nakamura-to */
+/**
+ * @author nakamura-to
+ */
 public class ResultSetMetaReader {
 
   /** 方言 */

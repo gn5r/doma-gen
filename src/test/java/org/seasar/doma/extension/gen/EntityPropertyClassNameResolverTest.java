@@ -5,7 +5,9 @@ import java.util.regex.Pattern;
 import junit.framework.TestCase;
 import org.seasar.doma.extension.gen.internal.util.ResourceUtil;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public class EntityPropertyClassNameResolverTest extends TestCase {
 
   public void testResolve2() throws Exception {

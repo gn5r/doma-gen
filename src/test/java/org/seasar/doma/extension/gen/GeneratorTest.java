@@ -10,7 +10,9 @@ import org.seasar.doma.extension.gen.dialect.PostgresGenDialect;
 import org.seasar.doma.extension.gen.internal.message.Message;
 import org.seasar.doma.extension.gen.internal.util.ResourceUtil;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public class GeneratorTest extends TestCase {
 
   private GlobalFactory factory = new GlobalFactory();

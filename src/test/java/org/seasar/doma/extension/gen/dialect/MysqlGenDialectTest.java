@@ -24,7 +24,9 @@ import org.junit.experimental.theories.Theory;
 import org.junit.runner.RunWith;
 import org.seasar.doma.extension.gen.ColumnMeta;
 
-/** @author matsumana */
+/**
+ * @author matsumana
+ */
 @RunWith(Theories.class)
 public class MysqlGenDialectTest {
 

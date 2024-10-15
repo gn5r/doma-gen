@@ -2,7 +2,9 @@ package org.seasar.doma.extension.gen.internal.message;
 
 import org.seasar.doma.extension.gen.MessageResource;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public enum Message implements MessageResource {
   DOMAGEN0001("The parameter \"{0}\" is null."),
   DOMAGEN0003("GenerationType.IDENTITY is not supported for the RDBMS \"{0}\"."),
