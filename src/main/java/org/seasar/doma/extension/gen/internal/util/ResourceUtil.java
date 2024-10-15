@@ -9,7 +9,9 @@ import java.net.URLDecoder;
 import org.seasar.doma.extension.gen.GenException;
 import org.seasar.doma.extension.gen.internal.message.Message;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public final class ResourceUtil {
 
   public static URL getResource(String path) {

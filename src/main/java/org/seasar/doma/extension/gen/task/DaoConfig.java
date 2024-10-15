@@ -93,7 +93,9 @@ public class DaoConfig extends DataType {
     this.encoding = encoding;
   }
 
-  /** @param baseDir the baseDir to set */
+  /**
+   * @param baseDir the baseDir to set
+   */
   protected void setBaseDir(File baseDir) {
     this.baseDir = baseDir;
   }

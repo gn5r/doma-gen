@@ -13,7 +13,9 @@ import java.nio.charset.Charset;
 import org.seasar.doma.extension.gen.GenException;
 import org.seasar.doma.extension.gen.internal.message.Message;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public final class IOUtil {
 
   protected static final int BUF_SIZE = 8192;

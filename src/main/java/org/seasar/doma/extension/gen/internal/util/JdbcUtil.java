@@ -14,7 +14,9 @@ import org.seasar.doma.extension.gen.GenNullPointerException;
 import org.seasar.doma.extension.gen.Logger;
 import org.seasar.doma.extension.gen.internal.message.Message;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public final class JdbcUtil {
 
   protected static final Pattern jdbcUrlPattern = Pattern.compile("jdbc:([^:]+):");

@@ -1,6 +1,8 @@
 package org.seasar.doma.extension.gen.internal;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public class Artifact {
 
   private static final String NAME = "Doma-Gen";

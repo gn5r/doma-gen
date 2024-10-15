@@ -5,7 +5,9 @@ import java.io.IOException;
 import org.seasar.doma.extension.gen.GenException;
 import org.seasar.doma.extension.gen.internal.message.Message;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public final class FileUtil {
 
   public static String getCanonicalPath(File file) {

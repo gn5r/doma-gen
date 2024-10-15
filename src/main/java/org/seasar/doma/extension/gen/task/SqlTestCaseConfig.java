@@ -29,7 +29,9 @@ public class SqlTestCaseConfig extends DataType {
   /** テストの対象のSQLファイル */
   protected final Set<File> sqlFiles = new HashSet<File>();
 
-  /** @return the destDir */
+  /**
+   * @return the destDir
+   */
   public File getDestDir() {
     if (destDir == null) {
       destDir = new File(baseDir != null ? baseDir : getProject().getBaseDir(), "src/test/java");
@@ -37,32 +39,44 @@ public class SqlTestCaseConfig extends DataType {
     return destDir;
   }
 
-  /** @param destDir the destDir to set */
+  /**
+   * @param destDir the destDir to set
+   */
   public void setDestDir(File destDir) {
     this.destDir = destDir;
   }
 
-  /** @return the encoding */
+  /**
+   * @return the encoding
+   */
   public String getEncoding() {
     return encoding;
   }
 
-  /** @param encoding the encoding to set */
+  /**
+   * @param encoding the encoding to set
+   */
   public void setEncoding(String encoding) {
     this.encoding = encoding;
   }
 
-  /** @return the generate */
+  /**
+   * @return the generate
+   */
   public boolean isGenerate() {
     return generate;
   }
 
-  /** @param generate the generate to set */
+  /**
+   * @param generate the generate to set
+   */
   public void setGenerate(boolean generate) {
     this.generate = generate;
   }
 
-  /** @param fileSet SQLファイルの集合 */
+  /**
+   * @param fileSet SQLファイルの集合
+   */
   public void addConfiguredFileSet(FileSet fileSet) {
     DirectoryScanner scanner = fileSet.getDirectoryScanner(getProject());
     File baseDir = fileSet.getDir();
@@ -71,12 +85,16 @@ public class SqlTestCaseConfig extends DataType {
     }
   }
 
-  /** @return the sqlFiles */
+  /**
+   * @return the sqlFiles
+   */
   public Set<File> getSqlFiles() {
     return sqlFiles;
   }
 
-  /** @param baseDir the baseDir to set */
+  /**
+   * @param baseDir the baseDir to set
+   */
   protected void setBaseDir(File baseDir) {
     this.baseDir = baseDir;
   }

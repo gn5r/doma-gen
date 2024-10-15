@@ -1,6 +1,8 @@
 package org.seasar.doma.extension.gen.internal.util;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public final class ClassUtil {
 
   public static String getPackageName(String qualifiedName) {

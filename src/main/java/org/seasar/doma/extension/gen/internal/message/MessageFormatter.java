@@ -4,7 +4,9 @@ import java.text.MessageFormat;
 import java.util.ResourceBundle;
 import org.seasar.doma.extension.gen.MessageResource;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 final class MessageFormatter {
 
   public static String getMessage(MessageResource messageResource, Object... args) {

@@ -4,10 +4,14 @@ import java.sql.Types;
 import java.time.LocalDate;
 import junit.framework.TestCase;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public class StandardGenDialectTest extends TestCase {
 
-  /** @throws Exception */
+  /**
+   * @throws Exception
+   */
   public void testReplacePropertyClassName() throws Exception {
     StandardGenDialect dialect = new StandardGenDialect();
     String localDateClassName = LocalDate.class.getName();
@@ -17,19 +21,25 @@ public class StandardGenDialectTest extends TestCase {
     assertEquals(utilDateClassName, dialect.fallbackClassNameMap.get(Types.DATE));
   }
 
-  /** @throws Exception */
+  /**
+   * @throws Exception
+   */
   public void testConvertToTimeLiteral() throws Exception {
     StandardGenDialect dialect = new StandardGenDialect();
     assertEquals("'a'", dialect.convertToTimeLiteral("a"));
   }
 
-  /** @throws Exception */
+  /**
+   * @throws Exception
+   */
   public void testConvertToDateLiteral() throws Exception {
     StandardGenDialect dialect = new StandardGenDialect();
     assertEquals("'a'", dialect.convertToDateLiteral("a"));
   }
 
-  /** @throws Exception */
+  /**
+   * @throws Exception
+   */
   public void testConvertToTimestampLiteral() throws Exception {
     StandardGenDialect dialect = new StandardGenDialect();
     assertEquals("'a'", dialect.convertToTimestampLiteral("a"));

@@ -2,7 +2,9 @@ package org.seasar.doma.extension.gen.internal.util;
 
 import junit.framework.TestCase;
 
-/** @author taedium */
+/**
+ * @author taedium
+ */
 public class TableUtilTest extends TestCase {
 
   public void test() throws Exception {
