@@ -2,6 +2,7 @@ package org.seasar.doma.extension.gen.task;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.lang.reflect.InvocationTargetException;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Task;
 import org.seasar.doma.extension.gen.GenException;
@@ -72,10 +73,18 @@ public abstract class AbstractTask extends Task {
       throw new GenException(Message.DOMAGEN0014, propertyName, className, supertype.getName());
     }
     try {
-      return supertype.cast(clazz.newInstance());
+      return supertype.cast(clazz.getDeclaredConstructor().newInstance());
     } catch (InstantiationException e) {
       throw new GenException(Message.DOMAGEN0015, propertyName, className, e);
     } catch (IllegalAccessException e) {
+      throw new GenException(Message.DOMAGEN0015, propertyName, className, e);
+    } catch (IllegalArgumentException e) {
+      throw new GenException(Message.DOMAGEN0015, propertyName, className, e);
+    } catch (InvocationTargetException e) {
+      throw new GenException(Message.DOMAGEN0015, propertyName, className, e);
+    } catch (NoSuchMethodException e) {
+      throw new GenException(Message.DOMAGEN0015, propertyName, className, e);
+    } catch (SecurityException e) {
       throw new GenException(Message.DOMAGEN0015, propertyName, className, e);
     }
   }
